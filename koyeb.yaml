@@ -1,0 +1,21 @@
+version: 1
+name: telegram-music-bot
+services:
+  - name: music-bot
+    env:
+      - name: TELEGRAM_BOT_TOKEN
+        value: YOUR_TELEGRAM_BOT_TOKEN
+      - name: LANG
+        value: C.UTF-8
+      - name: LC_ALL
+        value: C.UTF-8
+    ports:
+      - port: 8080
+        http: true
+    regions:
+      - fra
+    scalings:
+      min: 1
+    docker:
+      image: koyeb/python:3.9
+      command: python3 your_bot_script.py
