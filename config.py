@@ -1,6 +1,5 @@
 import re
 from os import getenv
-
 from dotenv import load_dotenv
 from pyrogram import filters
 
@@ -11,7 +10,7 @@ API_ID = 23882380
 API_HASH = "717f0a9521573f91562c2b3bd38f0b3c"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "7612831056:AAH86ofYIVH5-OE0sTrhvW2F1YCCk_etDFM"
+BOT_TOKEN = "7902780894:AAFRrf-FMKbIktfDuGaXKauYh-ZrQDtTQuw"
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = "mongodb+srv://nobodyknowns928:nobodyknowns928@nobody0.5zwwq.mongodb.net/?retryWrites=true&w=majority&appName=Nobody0"
